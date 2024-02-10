@@ -1,0 +1,276 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    animation: fadeIn 1.5s ease-out;
+}
+
+nav {
+    background-color: #090808;
+    padding: 10px;
+    text-align: center;
+    animation: slideIn 1s ease-out;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 0 10px;
+    transition: color 0.3s ease-out;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0; /* Change the background color */
+}
+
+header {
+    background-color: #1a1a1a; /* Change the header background color */
+    color: #ffffff; /* Change the header text color */
+    padding: 10px;
+    text-align: center;
+    animation: fadeIn 1.5s ease-out;
+}
+
+nav {
+    background-color: #333333; /* Change the navigation bar background color */
+    padding: 10px;
+    text-align: center;
+    animation: slideIn 1s ease-out;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff; /* Change the navigation link text color */
+    padding: 10px;
+    margin: 0 10px;
+    transition: color 0.3s ease-out;
+    position: relative;
+}
+
+nav a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #00cc66; /* Change the neon line color */
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+nav a:hover {
+    color: #ffd700; /* Change the navigation link text color on hover */
+}
+
+nav a:hover::before {
+    opacity: 1;
+}
+
+section {
+    padding: 20px;
+    animation: fadeIn 1.5s ease-out;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e0e0e0; /* Change the background color */
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle at 50% 50%, #00cc66 15%, transparent 16%), 
+                radial-gradient(circle at 100% 100%, #00cc66 15%, transparent 16%);
+    background-size: 20px 20px;
+    z-index: -1;
+}
+
+header {
+    background-color: #1a1a1a; /* Change the header background color */
+    color: #ffffff; /* Change the header text color */
+    padding: 10px;
+    text-align: center;
+    animation: fadeIn 1.5s ease-out;
+    position: relative;
+}
+
+nav {
+    background-color: #333333; /* Change the navigation bar background color */
+    padding: 10px;
+    text-align: center;
+    animation: slideIn 1s ease-out;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff; /* Change the navigation link text color */
+    padding: 10px;
+    margin: 0 10px;
+    transition: color 0.3s ease-out;
+    position: relative;
+}
+
+nav a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #101412; /* Change the neon line color */
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+nav a:hover {
+    color: #ffd700; /* Change the navigation link text color on hover */
+}
+
+nav a:hover::before {
+    opacity: 1;
+}
+
+section {
+    padding: 20px;
+    animation: fadeIn 1.5s ease-out;
+}
+
+footer {
+    background-color: #1a1a1a; /* Change the footer background color */
+    color: #ffffff; /* Change the footer text color */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    animation: slideIn 1s ease-out;
+}
+
+/* ... (existing styles) ... */
+
+
+footer {
+    background-color: #1a1a1a; /* Change the footer background color */
+    color: #ffffff; /* Change the footer text color */
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    animation: slideIn 1s ease-out;
+}
+
+/* ... (existing styles) ... */
+
+
+
+
+/* ... (existing styles) ... */
+
+nav {
+    background-color: #090808;
+    padding: 10px;
+    text-align: center;
+    animation: slideIn 1s ease-out;
+    position: relative;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 0 10px;
+    transition: color 0.3s ease-out;
+    position: relative;
+}
+
+nav a::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #00ff00; /* Neon color, you can change it */
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+nav a:hover {
+    color: #ffd700; /* Change to your preferred hover color */
+}
+
+nav a:hover::before {
+    opacity: 1;
+}
+
+/* ... (existing styles) ... */
+
+nav a:hover {
+    color: #ffd700; /* Change to your preferred hover color */
+}
+
+section {
+    padding: 20px;
+    animation: fadeIn 1.5s ease-out;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    animation: slideIn 1s ease-out;
+}
+
+.neon {
+    color: #00ff00; /* Neon color, you can change it */
+}
+
+/* Keyframe animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
